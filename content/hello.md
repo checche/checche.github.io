@@ -9,15 +9,9 @@ Empower your NuxtJS application with `@nuxtjs/content` module: write in a `conte
 
 Learn how to write your `content/`, supporting Markdown, YAML, CSV and JSON: https://content.nuxtjs.org/writing.
 
-### Aiueo content3
-aaaaaaaaatttttttttt iiiiiiiid dllldld
-
 ## Fetching content
 
 Learn how to fetch your content with `$content`: https://content.nuxtjs.org/fetching.
-
-### Aiueo content4
-kkkkkkkkkkkkkkkkkkkkkkkkkkk
 
 ## Displaying content
 

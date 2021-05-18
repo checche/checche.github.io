@@ -6,10 +6,12 @@ module.exports = {
   },
   extends: [
     '@nuxtjs/eslint-config-typescript',
-    'plugin:prettier/recommended',
     'plugin:nuxt/recommended',
   ],
-  plugins: [],
+  plugins: [
+  ],
   // add your custom rules here
-  rules: {},
+  rules: {
+    'comma-dangle': ['error', 'always-multiline'],
+  },
 }

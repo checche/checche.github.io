@@ -1,21 +1,25 @@
 <template>
-  <div>
-    <nav class="float-right">
+  <div class="flex">
+    <nav class="">
       <ul>
         <li
           v-for="link of page.toc"
           :key="link.id"
           :class="{
-            'primary text-5xl': link.depth === 2,
-            'text-2xl': link.depth === 3,
+            'text-xl': link.depth === 2,
+            'text-md': link.depth === 3,
           }"
         >
-          <nuxt-link :to="`#${link.id}`">{{ link.text }}</nuxt-link>
+          <nuxt-link :to="`#${link.id}`">
+            {{ link.text }}
+          </nuxt-link>
         </li>
       </ul>
     </nav>
     <article>
-      <h1>{{ page.title }}</h1>
+      <h1 class="text-4xl">
+        {{ page.title }}
+      </h1>
       <nuxt-content :document="page" />
     </article>
   </div>
@@ -25,8 +29,8 @@
 import Vue from 'vue'
 
 export default Vue.extend({
-  async asyncData({ params, $content }) {
-    const page = await $content(`articles/${params.id}`).fetch()
+  async asyncData ({ params, $content }) {
+    const page = await $content('articles', params.id).fetch()
 
     return {
       page,
