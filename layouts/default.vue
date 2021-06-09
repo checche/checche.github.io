@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-blue-50">
     <nav
-      class="sticky top-0 z-50 py-4 opacity-70 bg-teal-500 w-auto flex items-center shadow-md"
+      class="sticky top-0 z-50 h-18 py-4 opacity-70 bg-teal-500 w-auto flex items-center shadow-md"
     >
       <div class="flex space-x-4 container mx-auto items-center">
         <div class="flex text-white">
@@ -19,7 +19,7 @@
         </div>
       </div>
     </nav>
-    <div class="container mx-auto px-6 py-10">
+    <div class="container mx-auto px-5 py-10">
       <Nuxt />
     </div>
   </div>
