@@ -7,14 +7,14 @@ Empower your NuxtJS application with `@nuxtjs/content` module: write in a `conte
 
 ## Writing content
 
-Learn how to write your `content/`, supporting Markdown, YAML, CSV and JSON: https://content.nuxtjs.org/writing.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aspernatur, exercitationem necessitatibus ut possimus rerum, voluptates culpa voluptatibus cupiditate, beatae laborum eveniet vitae perspiciatis impedit sit. Veniam debitis aperiam velit.
 
 ### Aiueo content3
-aaaaaaaaatttttttttt iiiiiiiid dllldld
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aspernatur, exercitationem necessitatibus ut possimus rerum, voluptates culpa voluptatibus cupiditate, beatae laborum eveniet vitae perspiciatis impedit sit. Veniam debitis aperiam velit.
 
 ## Fetching content
 
-Learn how to fetch your content with `$content`: https://content.nuxtjs.org/fetching.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aspernatur, exercitationem necessitatibus ut possimus rerum, voluptates culpa voluptatibus cupiditate, beatae laborum eveniet vitae perspiciatis impedit sit. Veniam debitis aperiam velit.
 
 ### Aiueo content4
 kkkkkkkkkkkkkkkkkkkkkkkkkkk

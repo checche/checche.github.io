@@ -1,6 +1,12 @@
 <template>
   <div class="flex">
-    <nav class="">
+    <article>
+      <h1 class="text-6xl mb-5">
+        {{ page.title }}
+      </h1>
+      <nuxt-content :document="page" />
+    </article>
+    <nav class="hidden md:block">
       <ul>
         <li
           v-for="link of page.toc"
@@ -16,12 +22,6 @@
         </li>
       </ul>
     </nav>
-    <article>
-      <h1 class="text-4xl">
-        {{ page.title }}
-      </h1>
-      <nuxt-content :document="page" />
-    </article>
   </div>
 </template>
 
@@ -41,16 +41,16 @@ export default Vue.extend({
 
 <style lang="postcss" scoped>
 >>> .nuxt-content {
-  h2 {
-    @apply text-6xl;
+  & h2 {
+    @apply text-5xl mb-3;
   }
 
-  h3 {
-    @apply text-4xl;
+  & h3 {
+    @apply text-4xl mb-2 ml-2;
   }
 
-  p {
-    @apply text-xl;
+  & p {
+    @apply text-xl mb-5 ml-5;
   }
 }
 </style>
